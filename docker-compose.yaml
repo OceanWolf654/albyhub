@@ -10,3 +10,4 @@ services:
       - ./data:/data
     environment:
       - WORK_DIR=/data
+    command: ["./entrypoint.sh"]  # Change this based on your application's actual start command
